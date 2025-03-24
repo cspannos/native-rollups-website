@@ -82,7 +82,7 @@ While the precise timeline is evolving, the general roadmap includes:
 
 There are multiple ways to join the effort:  
 
-- **Participate in Discussions:** Join community calls and forums to exchange ideas and provide feedback on the design and implementation.  
+- **Participate in Discussions:** Join [community calls](https://github.com/cspannos/Native-Rollup-PM/tree/main) and forums to exchange ideas and provide feedback on the design and implementation.  
 
 - **Develop Documentation:** Help enhance technical guides, improve this FAQ, and produce research that helps explain the intricacies of native rollups.  
 
@@ -97,8 +97,10 @@ Your contributions—whether technical, educational, or organizational—are vit
 
 You can access in-depth resources at:  
 
-- **Repositories:** [Explore code, meeting notes, and ongoing projects.](https://github.com/native-rollups)
-- **Documentation:** Visit this website for guides, whitepapers, and regularly updated FAQs.
+- **Repositories:** [Explore code, meeting notes, and ongoing projects.](https://github.com/native-rollups)  
+
+- **Documentation:** Visit this website for guides, whitepapers, and regularly updated FAQs.  
+
 - **Research:** Read technical write-ups and academic papers that delve into the design and engineering behind native rollups.
 
 ### What future improvements or updates can we expect for native rollups?  
