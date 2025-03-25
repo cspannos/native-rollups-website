@@ -82,7 +82,7 @@ While the precise timeline is evolving, the general roadmap includes:
 
 There are multiple ways to join the effort:  
 
-- **Participate in Discussions:** Join [community calls](https://github.com/cspannos/Native-Rollup-PM/tree/main) and forums to exchange ideas and provide feedback on the design and implementation.  
+- **Participate in Discussions:** Join [community calls](/b_research/#community-dev-calls) and forums to exchange ideas and provide feedback on the design and implementation.  
 
 - **Develop Documentation:** Help enhance technical guides, improve this FAQ, and produce research that helps explain the intricacies of native rollups.  
 
