@@ -20,3 +20,11 @@
 | PoC 2 | TBD | Repo | TBD |
 | PoC 3 | TBD | Repo | TBD |
 
+
+## 🛠️ Community / Dev Calls
+
+| Call # | Date | Notes/Recording | Status |
+|--------|------|-----------------|--------|
+| 0 | 01.06.2025 | [Link](https://github.com/ethereum/pm/issues/1237) | Completed |
+| 1 | 02.17.2025 | [Link](https://github.com/ethereum/pm/issues/1301) | Completed |
+| 2 | TBD | Link | Upcoming |

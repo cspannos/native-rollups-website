@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
-         <loc>https://mydomain.org/mysite/</loc>
-         <lastmod>2025-03-24</lastmod>
+         <loc>https://native-rollups.info/</loc>
+         <lastmod>2025-03-25</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/a_faq/</loc>
-         <lastmod>2025-03-24</lastmod>
+         <loc>https://native-rollups.info/a_faq/</loc>
+         <lastmod>2025-03-25</lastmod>
     </url>
     <url>
-         <loc>https://mydomain.org/mysite/b_research/</loc>
-         <lastmod>2025-03-24</lastmod>
+         <loc>https://native-rollups.info/b_research/</loc>
+         <lastmod>2025-03-25</lastmod>
     </url>
 </urlset>
