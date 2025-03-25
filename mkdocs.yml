@@ -1,5 +1,5 @@
 site_name: Native Rollups
-site_url: native-rollups.info
+site_url: https://native-rollups.info
 theme:
   name: material
   logo: nr-logo.ico
