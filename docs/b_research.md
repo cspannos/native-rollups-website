@@ -6,10 +6,11 @@
 
 | Title | Author(s) | Link | Status |
 |-------|-----------|------|--------|
-| Native rollups—superpowers from L1 execution | Justin Drake  | [Link](https://ethresear.ch/t/native-rollups-superpowers-from-l1-execution/21517) | Published |
+| Native Rollups—Superpowers from L1 Execution | Justin Drake  | [Link](https://ethresear.ch/t/native-rollups-superpowers-from-l1-execution/21517) | Published |
 | Native Rollups - Promises and Challenges | Mohammad Jahanara | [Link](https://hackmd.io/@BARWuOmDQpyNdHgzQz9HnA/HJwy6Cgq1l) | Draft |
 | Revisit Native Rollups | Jünger | [Link](https://taiko.mirror.xyz/Mr5Fl0epl7ooCr5199yVrmGXWUV-IdYBHHtAwLXrp58) | Published |
-
+| Native Rollup Deposits by Passing L1 Context | Peter-Scroll | [Link](https://hackmd.io/@peter-scroll/) | Published |
+| Native Composability | 4rgon4ut| [Link](https://hackmd.io/@5qNKk0aeQlygax4hX3rVXw/S1IL0pz2Jx) | Draft |
 
 
 ## 🧪 Proofs of Concept
