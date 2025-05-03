@@ -2,20 +2,10 @@
 
 ## Frequently Asked Questions 
 
-### What are native rollups?
-Native rollups are an innovative scaling solution for Ethereum that integrate rollup functionality directly into the protocol. They leverage a dedicated `EXECUTE` precompile to expose the native L1 EVM execution engine to the application layer, allowing the verification of state transitions for batches of user transactions. In essence, native rollups act as “programmable execution shards” that not only simplify the development of rollup systems but also fully inherit Ethereum’s robust security model—making them “trustless rollups.”
 
-### How do native rollups improve Ethereum scalability?
+### What Are Native Rollups?
 
-Native rollups enhance Ethereum scalability by:  
-
-- **Reducing Overhead:** Offloading complex state transitions from the main EVM, thereby streamlining transaction processing.  
-
-- **Increasing Throughput:** Utilizing a dedicated execution mechanism to process transactions faster.  
-
-- **Lowering Latency:** Enabling near-real-time settlement and synchronous composability without the delays inherent in traditional rollup proving.  
-
-- **Enhancing Efficiency:** Optimizing resource utilization across the network while maintaining a high level of operational simplicity.  
+Native rollups introduce a reimagined execution model, the `EXECUTE` precompile, by decoupling Ethereum’s traditional EVM state transition function. Instead, execution occurs through a dedicated L1 precompile optimized for interacting with L2 rollups. 
 
 
 ### What is the role of the execution precompile in native rollups?  
@@ -26,7 +16,7 @@ The `EXECUTE` precompile is a specialized component embedded in Ethereum’s pro
 
 - **Enables Inherited Security:** Since it is directly enforced by Layer 1 validators, it ensures that native rollups fully inherit Ethereum’s security, including its consensus and cryptographic guarantees.  
 
-- **Simplifies Integration:** It allows for minimal native rollup implementations—often just a few lines of Solidity code—eliminating the need for ancillary infrastructure such as security councils or complex governance mechanisms.  
+- **Simplifies Integration:** It allows for minimal native rollup implementations, eliminating the need for ancillary infrastructure such as security councils or complex governance mechanisms.  
 
 
 ### How do native rollups interact with existing Layer 2 solutions?  
@@ -49,7 +39,7 @@ Some key challenges include:
 
 - **Integration with Offchain Proofs:** Balancing on-chain simplicity with offchain proof diversity introduces challenges in managing prover load and maintaining decentralized verification.  
 
-- **Adoption Hurdles:** Shifting from established rollup models to a native execution paradigm may require significant community and developer education.  
+- **Adoption Hurdles:** Shifting from established rollup models to a native execution paradigm may require significant community and developer education and coordination.#  
 
 
 ### How will security be ensured during the development and deployment of native rollups?  
@@ -109,12 +99,10 @@ Looking ahead, native rollups are poised to offer:
 
 - **Expanding Interoperability:** Greater support for a diverse array of Layer 2 solutions and external systems.  
 
-- **Optimized Performance:** Continued improvements in gas efficiency, throughput, and transaction latency.  
+- **Optimized Performance:** Continued improvements in gas efficiency and transaction latency.  
 
 - **EVM Equivalence:** Ongoing alignment with Ethereum’s core upgrades, ensuring long-term compatibility without the need for separate governance.  
 
 - **Lower SNARK Gas Costs:** Enhanced efficiency in verification processes, reducing the expense of onchain SNARK proof verification.  
-
-- **Synchronous Composability:** Further refinements to enable near real-time settlement and composability across decentralized applications.  
   
 Future updates will be driven by continuous innovation and collaboration within the Ethereum community and ecosystem, unlocking even more of the “superpowers” offered by native rollups.
