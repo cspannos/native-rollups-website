@@ -18,7 +18,7 @@
 | Type | Description | Repo | Status |
 |------|-------------|-----------|--------|
 | PoC 0 | A PR introducing initial support for native rollups within go-ethereum | [Repo](https://github.com/native-rollups/go-ethereum/pull/1) | In Progress |
-| PoC 1 | TBD | Repo | TBD |
+| PoC 1 | A PR for a simple `EXECUTE` precompile using transaction re-execution for verification of the L2 STF | [Repo](https://github.com/ethereumjs/ethereumjs-monorepo/pull/3865) | In Progress |
 | PoC 2 | TBD | Repo | TBD |
 
 
