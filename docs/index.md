@@ -2,19 +2,18 @@
 
 ### Redefining Ethereum Scalability
 
-Welcome to the **Native Rollups** website—a community-driven, open source initiative focused on innovating Ethereum’s scalability and efficiency. We’re dedicated to advancing a new approach where rollups are native to the protocol, streamlining execution and fostering seamless integration between Layer 1 and Layer 2 solutions.
+Welcome to the **Native Rollups** website—an open source initiative advancing a new approach where rollups are native to the Ethereum protocol, streamlining execution, fostering seamless integration between Layer 1 and Layer 2 solutions and unlocking full Ethereum L1 security.
 
 ## What Are Native Rollups?
 
-Native rollups propose a reimagined execution model by decoupling the traditional EVM state transition function. This allows for a dedicated pre-compile on L1 that optimizes interactions with various L2 rollups, promising:
+Native rollups introduce a reimagined execution model by decoupling Ethereum’s traditional EVM state transition function. Instead, execution occurs through a dedicated L1 precompile optimized for interacting with L2 rollups. This design offers:
 
-- **Increased Efficiency:** Enhanced throughput and lower latency for transactions.  
+- **EVM Equivalence:** Full compatibility with future EVM upgrades via Ethereum hard forks.
 
-- **Composability:** Simplified integration across different L2 environments.  
+- **Simplified Infrastructure:** Eliminates the need for fraud proof games, SNARK circuits, and external security mechanisms.
 
-- **Modularity:** A flexible framework that supports continuous innovation and scalability.  
+- **L1 Security by Design:** Rollups inherit Ethereum’s native consensus and cryptographic guarantees, ensuring trust-minimized execution and settlement.
 
-- **Security:** Inherited security and consensus mechanisms of Layer 1, ensuring that all rollup operations benefit from the L1 cryptographic guarantees and trust model.  
 
 ## Our Mission
 
