@@ -1,29 +1,16 @@
 FROM python:3.11-slim
 
-# Install system deps
-RUN apt-get update && apt-get install -y --no-install-recommends \
-    curl \
-    git \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
-
-# Create and activate virtual environment
-ENV VIRTUAL_ENV=/opt/venv
-RUN python -m venv $VIRTUAL_ENV
-ENV PATH="$VIRTUAL_ENV/bin:$PATH"
-
-# Install pip packages inside venv
-RUN $VIRTUAL_ENV/bin/pip install --upgrade pip && \
-    $VIRTUAL_ENV/bin/pip install mkdocs mkdocs-material
-
-# Set working directory
 WORKDIR /app
 
-# Copy project files
-COPY . .
+COPY . /app
 
-# Install JS deps if needed
-RUN if [ -f package.json ]; then npm install; fi
+# Install mkdocs and mkdocs-material
+RUN pip install --no-cache-dir mkdocs mkdocs-material
 
 # Build the site
-RUN npm run build
+RUN mkdocs build
+
+EXPOSE 8000
+
+# Serve the built static site
+CMD ["python3", "-m", "http.server", "--directory", "site", "8000"]
