@@ -1,8 +1,8 @@
 # Introduction
 
-### Redefining Ethereum Scalability
+### Redefining Ethereum Rollup Security
 
-Welcome to the **Native Rollups** website—an open source initiative advancing a new approach where rollups are native to the Ethereum protocol, streamlining execution, fostering seamless integration between Layer 1 and Layer 2 solutions and unlocking full Ethereum L1 security.
+Welcome to the **Native Rollups** website, an open source initiative advancing a new approach where rollups are native to the Ethereum protocol, streamlining execution, fostering seamless integration between Layer 1 and Layer 2 solutions and unlocking full Ethereum L1 security.
 
 ## What Are Native Rollups?
 
