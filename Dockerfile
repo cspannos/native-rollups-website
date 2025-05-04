@@ -1,19 +1,20 @@
 FROM python:3.11-slim
 
-# Install dependencies
+# Install system deps
 RUN apt-get update && apt-get install -y --no-install-recommends \
     curl \
     git \
     build-essential \
     && rm -rf /var/lib/apt/lists/*
 
-# Create and activate a Python virtual environment
+# Create and activate virtual environment
 ENV VIRTUAL_ENV=/opt/venv
-RUN python3 -m venv $VIRTUAL_ENV
+RUN python -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
 
-# Install MkDocs and Material theme in the virtual environment
-RUN pip install --upgrade pip && pip install mkdocs mkdocs-material
+# Install pip packages inside venv
+RUN $VIRTUAL_ENV/bin/pip install --upgrade pip && \
+    $VIRTUAL_ENV/bin/pip install mkdocs mkdocs-material
 
 # Set working directory
 WORKDIR /app
@@ -21,8 +22,8 @@ WORKDIR /app
 # Copy project files
 COPY . .
 
-# Install npm deps if needed
+# Install JS deps if needed
 RUN if [ -f package.json ]; then npm install; fi
 
-# Build the documentation
+# Build the site
 RUN npm run build
