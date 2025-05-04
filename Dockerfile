@@ -1,6 +1,6 @@
 FROM python:3.11-slim
 
-# Set working dir
+# Set working directory
 WORKDIR /app
 
 # Copy all files into the container
@@ -12,8 +12,8 @@ RUN pip install --no-cache-dir mkdocs mkdocs-material
 # Build the site and move it to the 'dist' folder for Fleek to detect
 RUN mkdocs build && mv site dist
 
-# If running locally, expose port
+# Expose port if running locally
 EXPOSE 8000
 
-# Confirm the build; Fleek will serve /dist
+# Cnfirm the build
 CMD ["echo", "Build complete"]
