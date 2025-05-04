@@ -1,5 +1,5 @@
 {
   "scripts": {
-    "build": "make html"
-  }
+    "build": "mkdocs build --site-dir site"
+}
 }
