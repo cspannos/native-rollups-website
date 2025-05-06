@@ -1,0 +1,9 @@
+{
+  "sites": [
+    {
+      "slug": "immense-vase-broad",
+      "distDir": ".",
+      "buildCommand": "build mkdocs"
+    }
+  ]
+}
