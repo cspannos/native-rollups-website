@@ -11,6 +11,7 @@
 | Revisit Native Rollups | Jünger | [Link](https://taiko.mirror.xyz/Mr5Fl0epl7ooCr5199yVrmGXWUV-IdYBHHtAwLXrp58) | Published |
 | Native Rollup Deposits by Passing L1 Context | Peter-Scroll | [Link](https://hackmd.io/@peter-scroll/) | Published |
 | Native Composability | 4rgon4ut| [Link](https://hackmd.io/@5qNKk0aeQlygax4hX3rVXw/S1IL0pz2Jx) | Draft |
+| Native Rollups: Where they are, and where they are going | Conor McMenamin and Luca Donno | [Link](https://medium.com/l2beat/native-rollups-where-they-are-and-where-they-are-going-cb21eb103d46) | Published |
 
 
 ## 🧪 Proofs of Concept

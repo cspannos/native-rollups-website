@@ -85,7 +85,7 @@ Your contributions—whether technical, educational, or organizational—are vit
 
 ### Where can I find more detailed documentation and research on native rollups?  
 
-You can access in-depth resources at:  
+You can access resources at:  
 
 - **Repositories:** [Explore code, meeting notes, and ongoing projects.](https://github.com/native-rollups)  
 

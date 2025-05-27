@@ -1,9 +1,12 @@
 {
-  "sites": [
-    {
-      "slug": "immense-vase-broad",
-      "distDir": ".",
-      "buildCommand": "build mkdocs"
-    }
-  ]
+  "name": "native-rollups",
+  "framework": "custom",
+  "dockerImage": {
+    "name": "fleek/build-image"
+  },
+  "build": {
+    "dockerfilePath": "Dockerfile",
+    "publishDir": "dist"
+  },
+  "ignoreBuildStep": false
 }

@@ -15,9 +15,9 @@ Native rollups introduce a reimagined execution model by decoupling Ethereum’s
 - **L1 Security by Design:** Rollups inherit Ethereum’s native consensus and cryptographic guarantees, ensuring trust-minimized execution and settlement.
 
 
-## Our Mission
+## This Website's Mission
 
-We aim to:
+This webite aim's to:
 
 - **Educate:** Provide clear, technical documentation and a comprehensive FAQ to help engineers and researchers navigate the nuances of native rollups.  
 
@@ -31,11 +31,11 @@ We aim to:
 
 - **Documentation & Guides:** Access technical write-ups, proofs of concept, and research papers.  
 
-- **Community Contributions:** Join our GitHub repo where we host meeting recordings, notes, agendas, and collaborative projects.  
+- **Community Contributions:**  Contribute code, join meetings, access recordings, notes, agendas, and collaborative projects.  
 
 ## Get Involved
 
-Whether you’re an engineer, a researcher, or simply passionate about the future of Ethereum, we invite you to contribute:
+Whether you’re an engineer, a researcher, or simply passionate about the future of Ethereum, you can contribute:
 
 - **Website & Content:** Help enhance our platform with updates, new sections, and clearer guidance.  
 
